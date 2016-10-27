@@ -1,0 +1,34 @@
+{
+  "name": "lambda-html2pdf2dropbox",
+  "version": "0.1.0",
+  "description": "Convert HTML to PDF and save file to Dropbox on AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvdoliveira/lambda-html2pdf2dropbox.git"
+  },
+  "keywords": [
+    "dropbox",
+    "aws lambda",
+    "nodejs",
+    "javascript",
+    "wkhtmltopdf"
+  ],
+  "author": "Deivide Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvdoliveira/lambda-html2pdf2dropbox/issues"
+  },
+  "homepage": "https://github.com/dvdoliveira/lambda-html2pdf2dropbox#readme",
+  "dependencies": {
+    "wkhtmltopdf": "^0.3.3",
+    "node-uuid": "^1.4.7",
+    "dropbox": "~0.10.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.0"
+  }
+}
